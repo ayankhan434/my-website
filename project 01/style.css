@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+.main_box{
+    background-color: rgba(91, 85, 85, 0.377);
+    height: 96vh;
+    background-size: cover;
+}
+.btn_one{
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    color: rgb(252, 70, 4);
+    line-height: 60px;
+}
+.sidebar_menu{
+    position: fixed;
+    left: -250px;
+    height: 80vh;
+    width: 250px;
+    background: rgba(125, 70, 70, 0.588);
+    box-shadow: 0 0 6px rgba(28, 124, 156, 0.5);
+    
+
+
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 80px;
+
+}
+.sidebar_menu .logo a { 
+    position: absolute;
+    left: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+.sidebar_menu .menu {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+.sidebar_menu .btn_two {
+    color: rgb(249, 1, 1);
+    position: absolute;
+    font-size: 25px;
+    line-height: 60px;
+    left: 220px;
+    opacity: 1;
+}
+.sidebar_menu .menu li {
+    list-style: none;
+    padding: 10px 20px;
+    border-bottom: 5px solid rgba(255, 248, 248, 0.1);
+}
+.sidebar_menu .menu i, a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sidebar_menu .social_media{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: rgba(148, 102, 102, 0.1);
+    box-shadow: 0 0 6px rgba(157, 52, 52, 0.5);
+}
+
+.sidebar_menu .menu i {
+    padding-right: 10px;
+}
+.sidebar_menu .social_media i{
+    color: white;
+    font-size: 25px;
+    padding: 0 15px;
+    
+}
+#check{
+    display: none;
+}
+.sidebar_menu .menu li:hover{
+    background: rgba(149, 52, 52, 0.5);
+    cursor: pointer;
+}
+.btn_one:hover{
+    cursor: pointer;
+    font-size: 40px;
+}
+.sidebar_menu .social_media i:hover{
+   opacity: 1; 
+   transition: scale(3);
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+    transition: all 0.5s;
+}
+.new>img{
+    
+    height: 500px;
+    left: 30%;
+    width: 50px;
+    position: absolute;
+   width: 400px;
+    top: 200px;
+    
+}
+#header{
+   display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(9, 9, 9);
+    gap: 300px;
+    background-color: rgba(22, 6, 6, 0.264);
+}
+#first{
+    height: 300px;
+    width: 300px;
+    top: 26%;
+    left: 55%;
+}
+#second{
+    height: 300px;
+    width: 300px;
+    left: 35%;
+    top: 45%;
+}
+#third{
+    height: 300px;
+    width: 300px;
+    left: 15%;
+    top: 26%;
+}
+#fourth{
+    height: 300px;
+    width: 300px;
+    left: 75%;
+    top: 45%;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(148, 102, 102, 0.1);
+    box-shadow: 0 0 6px rgba(157, 52, 52, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+.sidebar_menu .social_media ul a:hover{
+   opacity: 1; 
+   transition: scale(2);
+}
+#bg_text {
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    font-size: 45px;
+    color: rgba(116, 29, 29, 0.415);
+    
+}
+#bg_text2 {
+    position: absolute;
+    top: 85%;
+    left: 70%;
+    font-size: 25px;
+    color: rgba(224, 49, 49, 0.49);
+    
+}
